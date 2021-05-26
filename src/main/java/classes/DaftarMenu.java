@@ -1,4 +1,4 @@
-package classes;
+package classes; //Dimas Nugraha XI RPL 1
 import java.util.ArrayList;
 public class DaftarMenu{
 	private ArrayList<Menu> daftarMenu;
