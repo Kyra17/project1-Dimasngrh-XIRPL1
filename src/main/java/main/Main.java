@@ -16,6 +16,7 @@ public class Main{
             app.generateDaftarMenu();
             do{
                 System.out.println("========== TRANSAKSI ==========");
+                // ambil data
                 System.out.println("No Transaksi         :");
                 no_transaksi = input.next();
                 System.out.println("Pemesanan            :");
