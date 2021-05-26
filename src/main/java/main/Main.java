@@ -99,6 +99,7 @@ public class Main{
                         System.out.println("Kembalian : \t\t" + kembalian);
                         break;
                     }
+                    // ending
                 }while(kembalian < 0);
                 System.out.println("======== TERIMA KASIH ========");
                 System.out.println("Lakukan Transaksi Lagi?[Y/N]");
@@ -120,7 +121,7 @@ public class Main{
             daftarMenu.tambahMenu(new Toping("Gyoza Goreng", 4000));
             daftarMenu.tambahMenu(new Toping("Bakso Goreng", 7000));
             daftarMenu.tambahMenu(new Toping("Enoki Goreng", 5000));
-            daftarMenu.tambahMenu(new Minuman("Jus Alpukan", 10000));
+            daftarMenu.tambahMenu(new Minuman("Jus Alpukat", 10000));
             daftarMenu.tambahMenu(new Minuman("Jus Strobery", 11000));
             daftarMenu.tambahMenu(new Minuman("Capucino Coffee", 15000));
             daftarMenu.tambahMenu(new Minuman("Vietnam Dripp", 14000));
